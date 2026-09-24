@@ -17,7 +17,7 @@ submitBtn.addEventListener("click", async () => {
 
     try {
 
-        const response = await fetch("http://localhost:3000/ask-gemini", {
+        const response = await fetch("https://phase5ask-gemini.onrender.com/ask-gemini", {
 
             method: "POST",
 
